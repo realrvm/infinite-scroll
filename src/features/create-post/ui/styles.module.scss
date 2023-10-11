@@ -1,0 +1,20 @@
+.post {
+  border: 1px solid grey;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--post-bg-color);
+  display: grid;
+  grid-template-columns: 2rem 200px auto 200px;
+  gap: 0.5rem;
+
+  & > span {
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.postTitle {
+  font-weight: bold;
+}
